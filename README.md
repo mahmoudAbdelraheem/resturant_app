@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-# Just a simple UI resturant app (Home Screen and Details Screen)
+Just a simple UI resturant app (Home Screen and Details Screen)
 
 ## Getting Started
 
