@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+Just a simple UI resturant app (Home Screen and Details Screen)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
