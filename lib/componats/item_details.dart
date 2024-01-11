@@ -22,7 +22,7 @@ class ItemsDetails extends StatelessWidget {
             width: 100,
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage("images/$image"),
+                image: NetworkImage(image),
                 fit: BoxFit.cover,
               ),
               borderRadius: BorderRadius.circular(15),

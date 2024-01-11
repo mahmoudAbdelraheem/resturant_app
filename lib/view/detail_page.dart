@@ -30,7 +30,7 @@ class DetailsPage extends StatelessWidget {
             child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage("images/$image"),
+                  image: NetworkImage(image),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -52,10 +52,22 @@ class DetailsPage extends StatelessWidget {
               ),
             ),
           ),
-          const UserAvatar(leftPosition: 110.0, image: 'img5.jpg'),
-          const UserAvatar(leftPosition: 90.0, image: 'img3.jpg'),
-          const UserAvatar(leftPosition: 70.0, image: 'img2.jpg'),
-          const UserAvatar(leftPosition: 50.0, image: 'img1.jpg'),
+          const UserAvatar(
+              leftPosition: 110.0,
+              image:
+                  'https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGZvb2R8ZW58MHx8MHx8fDA%3D'),
+          const UserAvatar(
+              leftPosition: 90.0,
+              image:
+                  'https://plus.unsplash.com/premium_photo-1663852705829-aa8707495e2e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZvb2R8ZW58MHx8MHx8fDA%3D'),
+          const UserAvatar(
+              leftPosition: 70.0,
+              image:
+                  'https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZvb2R8ZW58MHx8MHx8fDA%3D'),
+          const UserAvatar(
+              leftPosition: 50.0,
+              image:
+                  'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'),
           Positioned(
             top: MediaQuery.of(context).size.height * 0.4,
             left: 25,
@@ -130,25 +142,29 @@ class DetailsPage extends StatelessWidget {
                     title: 'Vegetables',
                     supTitle:
                         'you should consume 2 1/2 cups vegetables per day according',
-                    image: 'img1.jpg',
+                    image:
+                        'https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGZvb2R8ZW58MHx8MHx8fDA%3D',
                   ),
                   ItemsDetails(
                     title: 'Vegetables',
                     supTitle:
                         'you should consume 2 1/2 cups vegetables per day according',
-                    image: 'img2.jpg',
+                    image:
+                        'https://plus.unsplash.com/premium_photo-1663852705829-aa8707495e2e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZvb2R8ZW58MHx8MHx8fDA%3D',
                   ),
                   ItemsDetails(
                     title: 'Vegetables',
                     supTitle:
                         'you should consume 2 1/2 cups vegetables per day according',
-                    image: 'img3.jpg',
+                    image:
+                        'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D',
                   ),
                   ItemsDetails(
                     title: 'Vegetables',
                     supTitle:
                         'you should consume 2 1/2 cups vegetables per day according',
-                    image: 'img4.jpg',
+                    image:
+                        'https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZvb2R8ZW58MHx8MHx8fDA%3D',
                   ),
                 ],
               ),

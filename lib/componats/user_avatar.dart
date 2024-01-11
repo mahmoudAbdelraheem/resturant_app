@@ -16,7 +16,7 @@ class UserAvatar extends StatelessWidget {
         width: 40,
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("images/$image"),
+            image: NetworkImage(image),
             fit: BoxFit.cover,
           ),
           borderRadius: BorderRadius.circular(20),

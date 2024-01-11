@@ -37,7 +37,7 @@ class BodyItems extends StatelessWidget {
                     topRight: Radius.circular(10),
                   ),
                   image: DecorationImage(
-                    image: AssetImage("images/$image"),
+                    image: NetworkImage(image),
                     fit: BoxFit.cover,
                   ),
                 ),

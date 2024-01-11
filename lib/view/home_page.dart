@@ -26,7 +26,8 @@ class HomePage extends StatelessWidget {
                     ),
                     CircleAvatar(
                       // radius: 25,
-                      backgroundImage: AssetImage('images/avatar1.jpg'),
+                      backgroundImage: NetworkImage(
+                          'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'),
                     ),
                   ],
                 ),
@@ -56,25 +57,36 @@ class HomePage extends StatelessWidget {
                 BodyItems(
                   title: "Joe's Linder",
                   supTitle: "123 reviews = s. Oxford 13th",
-                  image: 'img1.jpg',
+                  image:
+                      'https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZvb2R8ZW58MHx8MHx8fDA%3D',
                   rate: 4.5,
                 ),
                 BodyItems(
                   title: "Mama's brunch",
                   supTitle: "89 reviews = s. Gulier 6th",
-                  image: 'img2.jpg',
+                  image:
+                      'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D',
                   rate: 3.2,
                 ),
                 BodyItems(
                   title: "Joe's Linder",
                   supTitle: "123 reviews = s.Oxford 13th",
-                  image: 'img3.jpg',
+                  image:
+                      'https://plus.unsplash.com/premium_photo-1663852705829-aa8707495e2e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZvb2R8ZW58MHx8MHx8fDA%3D',
                   rate: 5.3,
                 ),
                 BodyItems(
                   title: "title",
                   supTitle: "123 reviews = s.Oxford 13th",
-                  image: 'img4.jpg',
+                  image:
+                      'https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGZvb2R8ZW58MHx8MHx8fDA%3D',
+                  rate: 5.3,
+                ),
+                BodyItems(
+                  title: "title",
+                  supTitle: "123 reviews = s.Oxford 13th",
+                  image:
+                      'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D',
                   rate: 5.3,
                 ),
               ],
